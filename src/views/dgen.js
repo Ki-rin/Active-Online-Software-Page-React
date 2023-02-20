@@ -141,15 +141,10 @@ const Dgen = (props) => {
               </span>
             </span>
             <button className="dgen-button1 button">Download</button>
+            <button className="dgen-button2 button">Re-Generate</button>
             <div className="dgen-container5">
               <div className="dgen-container6"></div>
             </div>
-            <button className="dgen-button2 button">
-              <span>
-                <span className="dgen-text24">Re-Generate</span>
-                <br></br>
-              </span>
-            </button>
             <button className="dgen-button3 button">
               <span></span>
             </button>
