@@ -262,8 +262,7 @@
 }
 .dgen-button1 {
   color: var(--dl-color-gray-white);
-  width: 115px;
-  position: relative;
+  width: 141px;
   font-size: 0.75rem;
   align-self: flex-end;
   transition: 0.3s;
@@ -273,13 +272,26 @@
   color: var(--dl-color-gray-black);
   background-color: transparent;
 }
-.dgen-text24:hover {
-  color: var(--dl-color-gray-black);
-  background-color: transparent;
+.dgen-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dgen-container6 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .dgen-button2 {
   color: var(--dl-color-gray-white);
-  width: 115px;
+  width: 141px;
   position: relative;
   font-size: 0.75rem;
   align-self: flex-end;
@@ -290,15 +302,16 @@
   color: var(--dl-color-gray-black);
   background-color: transparent;
 }
+.dgen-text24:hover {
+  color: var(--dl-color-gray-black);
+  background-color: transparent;
+}
 .dgen-button3 {
-  top: 285px;
-  left: 26px;
   color: var(--dl-color-gray-white);
-  width: 92px;
-  margin: auto;
-  position: absolute;
+  width: 115px;
+  position: relative;
   font-size: 0.75rem;
-  align-self: center;
+  align-self: flex-end;
   transition: 0.3s;
   background-color: var(--dl-color-gray-black);
 }
@@ -306,7 +319,16 @@
   color: var(--dl-color-gray-black);
   background-color: transparent;
 }
-.dgen-container5 {
+.dgen-container7 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dgen-container8 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -317,7 +339,7 @@
 }
 .dgen-button4 {
   color: var(--dl-color-gray-white);
-  width: 113px;
+  width: 142px;
   font-size: 0.75rem;
   align-self: flex-end;
   transition: 0.3s;
@@ -445,11 +467,11 @@
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .dgen-text24 {
+  .dgen-button2 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .dgen-button2 {
+  .dgen-text24 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }

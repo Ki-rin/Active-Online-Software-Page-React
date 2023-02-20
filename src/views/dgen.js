@@ -140,17 +140,21 @@ const Dgen = (props) => {
                 positive, and 350 neutral instances as positive.
               </span>
             </span>
-            <button className="dgen-button1 button">
+            <button className="dgen-button1 button">Download</button>
+            <div className="dgen-container5">
+              <div className="dgen-container6"></div>
+            </div>
+            <button className="dgen-button2 button">
               <span>
                 <span className="dgen-text24">Re-Generate</span>
                 <br></br>
               </span>
             </button>
-            <button className="dgen-button2 button">
+            <button className="dgen-button3 button">
               <span></span>
             </button>
-            <button className="dgen-button3 button">Download</button>
-            <div className="dgen-container5"></div>
+            <div className="dgen-container7"></div>
+            <div className="dgen-container8"></div>
             <button className="dgen-button4 button">Write Feedback</button>
           </div>
         </div>
